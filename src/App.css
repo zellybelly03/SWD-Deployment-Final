@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+body {
+    background-image: url("https://gamingbolt.com/wp-content/uploads/2020/10/Destiny-2-Beyond-Light_02.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#contactForm {
+    margin: auto;
+    /* margin-top: 50px; */
+    text-align: center;
+    background-color: #547d86;
+    max-width: 600px;
+    height: 350px;
+    background: transparent;
+    border-radius: 25px;
+    box-shadow: 10px 10px 20px #656f71, -10px -10px 20px #ffffff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.inputs {
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.imgs {
+    max-width: 150px;
+    max-height: 150px;
+    float: left;
 }
 
-.App-link {
-  color: #61dafb;
+#idCard {
+    text-align: center;
+    max-width: 600px;
+    height: 300px;
+    margin: auto;
+    margin-top: 100px;
+    /* background: linear-gradient(145deg, #baced0, #707c7e); */
+    background: transparent;
+    border-radius: 25px;
+    box-shadow: 10px 10px 20px #656f71, -10px -10px 20px #ffffff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.postText {
+    margin-right: 150px;
+    margin-top: 25px;
 }
